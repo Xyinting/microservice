@@ -37,10 +37,10 @@ mybatis:
 logging:
   level:
     com.xyt.otrs.otrsrestaurant.mapper: trace
-eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.31.12:8761/eureka
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://192.168.31.12:8761/eureka
 #      defaultZone: http://localhost:8761/eureka
 feign:
   hystrix:

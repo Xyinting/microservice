@@ -8,10 +8,10 @@ spring:
       percentage: 1
   jackson:
     default-property-inclusion: non_null
-  rabbitmq:
-      addresses: 192.168.31.12:5672
-      username: test_mq
-      password: test12345678
+#  rabbitmq:
+#      addresses: 192.168.31.12:5672
+#      username: test_mq
+#      password: test12345678
 server:
   port: 8082
 c3p0:
@@ -36,10 +36,10 @@ mybatis:
 logging:
   level:
     com.xyt.otrs.otrsbooking.mapper: trace
-eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.31.12:8761/eureka
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://192.168.31.12:8761/eureka
 #      defaultZone: http://localhost:8761/eureka
 feign:
   hystrix:
