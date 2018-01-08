@@ -8,10 +8,10 @@ spring:
         percentage: 1
   jackson:
     default-property-inclusion: non_null
-  rabbitmq:
-      addresses: 192.168.31.12:5672
-      username: test_mq
-      password: test12345678
+#  rabbitmq:
+#      addresses: 192.168.31.12:5672
+#      username: test_mq
+#      password: test12345678
 
 server:
   port: 8080
