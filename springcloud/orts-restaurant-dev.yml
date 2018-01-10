@@ -2,7 +2,8 @@ spring:
   application:
     name: orts-restaurant
   zipkin:
-    base-url: http://otrs-zipkin:9411/
+    base-url: http://192.168.31.11:9411/
+#    base-url: http://otrs-zipkin:9411/
   sleuth:
     sampler:
       percentage: 1
