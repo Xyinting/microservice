@@ -4,8 +4,8 @@ spring:
   zipkin:
     base-url: http://otrs-zipkin:9411/
   sleuth:
-      sampler:
-        percentage: 1
+    sampler:
+      percentage: 1
   jackson:
     default-property-inclusion: non_null
 #  rabbitmq:
